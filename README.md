@@ -1,46 +1,34 @@
 # Campus ERP
 
-College Event Management Platform built with React, Vite, Express, and PostgreSQL.
+**Campus ERP** is a College Event Management Platform developed as part of the **Technical Team Recruitment Process for Team CodeLocked**, a club at **BMSCE (B.M.S. College of Engineering)**.
 
-## Requirements
-- Node.js 22 (recommended for this project)
-- PostgreSQL 17 (or a compatible PostgreSQL version)
+The platform is designed to streamline college event management through a centralized system for students and event organizers.
 
-## Setup
+## Live Demo
 
-1. Install dependencies:
+🌐 **Website:** https://campus-erp-w0qn.onrender.com/
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start PostgreSQL and create the database:
+- **Frontend:** React, Vite
+- **Backend:** Node.js, Express.js
+- **Database:** PostgreSQL
 
-   ```bash
-   brew services start postgresql@17
-   createdb Campus ERP
-   ```
+## Features
 
-   If the database already exists, do not create it again.
+- Student and organizer authentication
+- College event management
+- Centralized event platform
+- Role-based access for students and organizers
 
-3. Start the application:
+## Project Context
 
-   ```bash
-   npm run dev
-   ```
+This project was built as part of the recruitment process for the Technical Team of **Team CodeLocked**, one of the clubs at BMSCE.
 
-   The API runs at `http://localhost:4000` and Vite at `http://localhost:5173`.
+It demonstrates the application of full-stack web development technologies to build a practical college event management platform.
 
-   By default, the backend connects to `postgresql://<your-mac-username>@localhost:5432/Campus ERP`.
-   You can override this with `DATABASE_URL`, for example:
+---
 
-   ```bash
-   DATABASE_URL='postgresql://localhost:5432/Campus ERP' npm run dev
-   ```
-
-## Demo accounts
-
-- Student: `student@campuserp.dev` / `demo1234`
-- Organizer: `organizer.org@campuserp.dev` / `demo1234`
-
-The backend creates the PostgreSQL tables and demo data on first startup when the users table is empty. This package does not automatically migrate data from an earlier SQLite database.
+**Developed for:** Team CodeLocked – BMSCE  
+**Project:** Campus ERP  
+**Category:** Full-Stack Web Development
